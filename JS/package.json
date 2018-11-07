@@ -5,13 +5,13 @@
   "main": "StalinSort.js",
   "scripts": {
     "test": "jest",
-    "lint:js": "eslint -c ./config/.eslintrc.js *.js src/*.js --fix",
+    "lint:js": "eslint -c ./config/.eslintrc.js *.js --fix",
     "doc:lint": "documentation lint *.js",
     "doc:md": "documentation readme StalinSort.js -s Documentation",
     "changelog": "conventional-changelog -p eslint -i CHANGELOG.md -s -r 0",
     "version": "npm run changelog && git add CHANGELOG.md",
     "commit": "git-cz",
-    "lint:md": "remark . -i ./config/.remarkignore",
+    "lint:md": "remark . ../ ../.github -i ./config/.remarkignore",
     "lint": "npm run lint:js && npm run lint:md",
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release"
@@ -49,7 +49,7 @@
   "jest": {
     "collectCoverage": true,
     "collectCoverageFrom": [
-      "src/*.js",
+      "*.js",
       "test/*.js",
       "!**/node_modules/**",
       "!**/_*.js"
