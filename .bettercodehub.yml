@@ -1,7 +1,11 @@
 exclude:
     - /doc/.*
+    - /**/doc/.*
     - /config/.*
+    - /**/config/.*
     - /build/.*
 
 languages:
     - javascript
+    - python
+    - java
