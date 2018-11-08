@@ -1,9 +1,7 @@
 # StalinSort
 
-[![NodeVersion](https://img.shields.io/node/v/StalinSort.svg)](https://github.com/Berkmann18/StalinSort)
 [![GitHub package version](https://img.shields.io/github/package-json/v/Berkmann18/StalinSort.svg)](https://github.com/Berkmann18/StalinSort)
-[![devDependencies Status](https://david-dm.org/berkmann18/stalinsort/dev-status.svg)](https://david-dm.org/berkmann18/stalinsort?type=dev)
-[![dependencies Status](https://david-dm.org/berkmann18/stalinsort/status.svg)](https://david-dm.org/berkmann18/stalinsort)
+
 
 [![GH Downloads](https://img.shields.io/github/downloads/Berkmann18/StalinSort/total.svg)](https://github.com/Berkmann18/StalinSort/network/members)
 [![GitHub commit activity the past year](https://img.shields.io/github/commit-activity/y/Berkmann18/StalinSort.svg)](https://github.com/Berkmann18/StalinSort/graphs/commit-activity)
@@ -12,7 +10,6 @@
 
 [![Build Status](https://travis-ci.org/Berkmann18/StalinSort.svg?branch=master)](https://travis-ci.org/Berkmann18/StalinSort)
 [![codecov.io Code Coverage](https://img.shields.io/codecov/c/github/Berkmann18/StalinSort.svg?maxAge=2592000)](https://codecov.io/github/Berkmann18/StalinSort?branch=master)
-[![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 
 [![GitHub](https://img.shields.io/github/license/Berkmann18/StalinSort.svg)](https://github.com/Berkmann18/StalinSort/blob/master/LICENSE)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Berkmann18/StalinSort/issues)
@@ -32,4 +29,4 @@ Current implementations:
 -   Java (to come)
 
 **Inspiration**:
-![]
+![Inspiration](./inspiration.jpg)

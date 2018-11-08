@@ -6,8 +6,8 @@
   "scripts": {
     "test": "jest",
     "lint:js": "eslint -c ./config/.eslintrc.js *.js --fix",
-    "doc:lint": "documentation lint *.js",
-    "doc:md": "documentation build StalinSort.js -f md -o DOCUMENTATION.md",
+    "doc:lint": "documentation lint StalinSort.js",
+    "doc:md": "documentation readme StalinSort.js -s Documentation",
     "doc": "npm run doc:lint && npm run doc:md",
     "changelog": "conventional-changelog -p eslint -i CHANGELOG.md -s -r 0",
     "version": "npm run changelog && git add CHANGELOG.md",

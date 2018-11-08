@@ -2,6 +2,7 @@
 
 /**
  * @fileoverview StalinSort in ES6.
+ * @module
  */
 
 /**
