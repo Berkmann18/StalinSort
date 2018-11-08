@@ -24,9 +24,10 @@
 
 A sorting algorithm that __eliminates__ all the items that aren't in order.
 Current implementations:
--   JS (ES6)
+-   NodeJS (ES6)
 -   Python (3)
 -   Java (to come)
 
 **Inspiration**:
+
 ![Inspiration](./inspiration.jpg)
