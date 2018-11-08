@@ -1,8 +1,7 @@
 exclude:
     - /doc/.*
-    - /**/doc/.*
     - /config/.*
-    - /**/config/.*
+    - /JS/config/.*
     - /build/.*
 
 languages:
